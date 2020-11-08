@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Jumbotron from 'react-bootstrap/esm/Jumbotron';
 import Table from 'react-bootstrap/esm/Table';
 import Employee from './Employee';
 import Button from 'react-bootstrap/esm/Button';
@@ -47,9 +46,9 @@ function SearchForm() {
         let alpha = container.sort()
 
         alpha.forEach(item => {
-            listState.results.forEach(thing => {
-                if (item === thing.name.first) {
-                    answer.results.push(thing)
+            listState.results.forEach(entry => {
+                if (item === entry.name.first) {
+                    answer.results.push(entry)
                 }
             })
             setList(answer)
@@ -67,9 +66,9 @@ function SearchForm() {
         let alpha = container.sort()
 
         alpha.forEach(item => {
-            listState.results.forEach(thing => {
-                if (item === thing.name.last) {
-                    answer.results.push(thing)
+            listState.results.forEach(entry => {
+                if (item === entry.name.last) {
+                    answer.results.push(entry)
                 }
             })
             setList(answer)
