@@ -91,11 +91,12 @@ const descending = ()=>{
   <thead>
     <tr>
       <th scope="col">#</th>
+      <th scope="col">Picture</th>
       <th scope="col" onClick={ascending}>First Name</th>
       <th scope="col" onClick={descending}>Last Name</th>
       <th scope="col"> Email</th>
       <th scope="col"> Phone</th>
-      <th scope="col">Picture</th>
+      
     </tr>
   </thead>
   <tbody>
