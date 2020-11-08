@@ -21,7 +21,8 @@
 - [Contact](#contact) 
  
   
-  
+ ## Demo 
+ ![screenshot](public/EmployeeDirectoryDemo.gif?raw=true)  
  
 ## Installation 
  This application is hosted on Github Pages: https://pprewitt.github.io/employee-directory/. You are welcome to fork the repo and replace the employees.json file withyour own employee data. 
